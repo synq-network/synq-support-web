@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en" data-lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Help Center - Synq</title>
+
+    <!-- Fonts & Icons (optional) -->
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="site-header">
+      <div class="container header-inner">
+        <div class="logo-group">
+          <div class="logo">Synq</div>
+          <div class="page-title" data-i18n="help_center"></div>
+        </div>
+
+        <div class="lang-switch" role="tablist" aria-label="Language switch">
+          <button class="lang active" data-lang="en" role="tab" aria-selected="true">EN</button>
+          <button class="lang" data-lang="fr" role="tab" aria-selected="false">FR</button>
+        </div>
+      </div>
+    </header>
+
+    <!-- Hero -->
+    <section class="hero">
+      <h1 class="hero-title" data-i18n="hero_title"></h1>
+      <p class="hero-subtitle" data-i18n="hero_subtitle">
+      </p>
+    </section>
+
+    <!-- Popular (we’ll refine later; left as static for now) -->
+    <section class="popular">
+      <h2 class="section-title" data-i18n="popular_title"></h2>
+      <div class="card-grid" id="popular-grid">
+        <article class="card">
+          <h3 data-i18n="pq1_title"></h3>
+          <p data-i18n="pq1_desc"></p>
+        </article>
+
+        <article class="card">
+          <h3 data-i18n="pq2_title"></h3>
+          <p data-i18n="pq2_desc"></p>
+        </article>
+
+        <article class="card">
+          <h3 data-i18n="pq3_title"></h3>
+          <p data-i18n="pq3_desc"></p>
+        </article>
+
+       
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="faq">
+      <h2 class="section-title" data-i18n="faq_title"></h2>
+
+      <div class="faq-item">
+        <button class="faq-toggle" aria-expanded="false" data-i18n="f1_q">
+        </button>
+        <div class="faq-content" aria-hidden="true">
+          <p data-i18n="f1_a">
+          </p>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-toggle" aria-expanded="false" data-i18n="f2_q">
+        </button>
+        <div class="faq-content" aria-hidden="true">
+          <p data-i18n="f2_a">
+          </p>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-toggle" aria-expanded="false" data-i18n="f3_q">
+        </button>
+        <div class="faq-content" aria-hidden="true">
+          <p data-i18n="f3_a">
+          </p>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-toggle" aria-expanded="false" data-i18n="f4_q">
+        </button>
+        <div class="faq-content" aria-hidden="true">
+          <p data-i18n="f4_a">
+          </p>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-toggle" aria-expanded="false" data-i18n="f5_q">
+        </button>
+        <div class="faq-content" aria-hidden="true">
+          <p data-i18n="f5_a">
+          </p>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-toggle" aria-expanded="false" data-i18n="f6_q">
+        </button>
+        <div class="faq-content" aria-hidden="true">
+          <p data-i18n="f6_a">
+          </p>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-toggle" aria-expanded="false" data-i18n="f7_q">
+        </button>
+        <div class="faq-content" aria-hidden="true">
+          <p data-i18n="f7_a">
+          </p>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-toggle" aria-expanded="false" data-i18n="f8_q">
+        </button>
+        <div class="faq-content" aria-hidden="true">
+          <p data-i18n="f8_a">
+          </p>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-toggle" aria-expanded="false" data-i18n="f9_q">
+        </button>
+        <div class="faq-content" aria-hidden="true">
+          <p data-i18n="f9_a">
+          </p>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-toggle" aria-expanded="false" data-i18n="f10_q">
+        </button>
+        <div class="faq-content" aria-hidden="true">
+          <p data-i18n="f10_a">
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="contact" id="contact-card" aria-live="polite">
+      <div class="contact-inner">
+        <div class="contact-icon" aria-hidden="true">💬</div>
+        <h3 class="contact-title" data-i18n="contact_title"></h3>
+        <p class="contact-subtitle" data-i18n="contact_text">
+        </p>
+        <button class="btn-primary" id="contact-cta" data-i18n="contact_button">
+          Contact Support
+        </button>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+      <div class="status"><span class="dot" aria-hidden="true"></span><span data-i18n="status"></span></div>
+      <nav class="footer-nav">
+        <a href="#" data-i18n="tos"></a>
+        <a href="#" data-i18n="privacy"></a>
+        <a href="#" data-i18n="release"></a>
+      </nav>
+      <div class="copy"></div>
+    </footer>
+
+    <script src="scripts.js"></script>
+  </body>
+</html>
