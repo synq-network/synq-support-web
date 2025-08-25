@@ -100,6 +100,7 @@ body {
 }
 .faq-item.active .faq-content {
   padding-top: 8px; padding-bottom: 16px;
+  /* max-height is set inline via JS for smooth auto height */
 }
 
 /* Contact */
@@ -149,3 +150,31 @@ body {
 /* Spacing below fixed header */
 .hero, .popular, .faq, .contact { scroll-margin-top: 80px; }
 
+.legal-content {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 1rem;
+  line-height: 1.6;
+  font-size: 1rem;
+}
+
+.legal-content h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.legal-content h2 {
+  font-size: 1.25rem;
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.legal-content p {
+  margin-bottom: 1rem;
+}
+.logo img,
+.logo-img {
+  height: 40px;   /* adjust to fit your header */
+  width: auto;
+  display: block;
+}
