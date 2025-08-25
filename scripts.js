@@ -183,7 +183,6 @@ function setupContact() {
   const btn = document.getElementById("contact-cta");
 
   btn.addEventListener("click", () => {
-    // Replace the inner content with compact contact options
     const lang = document.documentElement.getAttribute("data-lang") || "en";
     const d = I18N[lang] || I18N.en;
 
@@ -226,3 +225,4 @@ document.addEventListener("DOMContentLoaded", () => {
   setupContact();
   setupLangSwitch();
 });
+
