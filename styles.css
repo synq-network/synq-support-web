@@ -100,7 +100,6 @@ body {
 }
 .faq-item.active .faq-content {
   padding-top: 8px; padding-bottom: 16px;
-  /* max-height is set inline via JS for smooth auto height */
 }
 
 /* Contact */
@@ -149,3 +148,4 @@ body {
 
 /* Spacing below fixed header */
 .hero, .popular, .faq, .contact { scroll-margin-top: 80px; }
+
