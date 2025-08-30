@@ -4,7 +4,7 @@ const I18N = {
     help_center: "Help Center",
     hero_title: "How can we help?",
     hero_subtitle: "Find quick answers to common questions or get in touch with our support team.",
-    popular_title: "Popular Questions",
+    popular_title: "About Us",
     pq1_title: "What is Synq",
     pq1_desc: "Synq is a social app that helps people connect through sports and activities. It makes it easy to find events, join in, and meet new friends in real life.",
     pq2_title: "Our Purpose",
@@ -226,3 +226,4 @@ document.addEventListener("DOMContentLoaded", () => {
   setupContact();
   setupLangSwitch();
 });
+
