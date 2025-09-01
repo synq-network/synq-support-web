@@ -198,7 +198,7 @@ function setupContact() {
           </div>
           <div class="contact-option">
             <strong>${d.phone_label}:</strong>
-            <span>+1 438 409 2408</span>
+            <span></span>
           </div>
         </div>
       </div>
@@ -226,5 +226,6 @@ document.addEventListener("DOMContentLoaded", () => {
   setupContact();
   setupLangSwitch();
 });
+
 
 
