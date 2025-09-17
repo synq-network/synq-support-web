@@ -274,3 +274,24 @@ body {
     box-shadow: 0 0 0 0 rgba(103, 101, 236, 0);
   }
 }
+
+/* Mobile-specific styles */
+@media (max-width: 768px) {
+  .header-center-content {
+    display: none; /* Hide social buttons on mobile */
+  }
+
+  .header-inner {
+    justify-content: center; /* Center content when social buttons are hidden */
+  }
+
+  .logo-group {
+    flex-grow: 1; /* Allow logo group to take available space */
+    justify-content: center; /* Center logo and title within its space */
+  }
+
+  .lang-switch {
+    position: absolute; /* Position language switch absolutely */
+    right: 1rem; /* Align to the right */
+  }
+}
