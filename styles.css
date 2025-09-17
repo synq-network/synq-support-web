@@ -260,6 +260,21 @@ body {
   animation: pulse 2s infinite; /* Apply pulsing animation */
 }
 
+/* Hide mobile social buttons by default on larger screens */
+.mobile-social-buttons-faq-container {
+  display: none;
+}
+
+/* Mobile-specific styles for social buttons before FAQ */
+@media (max-width: 768px) {
+  .mobile-social-buttons-faq-container {
+    display: flex; /* Show on mobile */
+    justify-content: center; /* Center social buttons */
+    padding: 20px 1rem; /* Add some padding */
+    margin-bottom: 20px; /* Space before FAQ section */
+  }
+}
+
 @keyframes pulse {
   0% {
     transform: scale(1);
@@ -278,20 +293,7 @@ body {
 /* Mobile-specific styles */
 @media (max-width: 768px) {
   .header-center-content {
-    display: none; /* Hide social buttons on mobile */
-  }
-
-  .header-inner {
-    justify-content: center; /* Center content when social buttons are hidden */
-  }
-
-  .logo-group {
-    flex-grow: 1; /* Allow logo group to take available space */
-    justify-content: center; /* Center logo and title within its space */
-  }
-
-  .lang-switch {
-    position: absolute; /* Position language switch absolutely */
-    right: 1rem; /* Align to the right */
+    display: none; /* Hide social buttons in header on mobile */
   }
 }
+
